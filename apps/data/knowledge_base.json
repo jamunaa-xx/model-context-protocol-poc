@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What does our company do?",
+        "answer": "We are a company that provides IT services to our customers."
+    },
+    {
+        "question": "What is our company's mission?",
+        "answer": "Our mission is to provide high-quality IT services to our customers."
+    },
+    {
+        "question": "What is our company's leave policy like?",
+        "answer": "Full-time employees are entitled to 20 paid leaves per year which are accrued incrementally per month."
+    },
+    {
+        "question": "How do I apply for a leave?",
+        "answer": "You can apply for a leave by filling out a leave application form (download from Keka platform) and submitting it to the HR department."
+    },
+    {
+        "question": "What is our company's working hours?",
+        "answer": "Our company's working hours are Monday to Friday, 8:00 AM to 5:00 PM."
+    },
+    {
+        "question": "Can I work from home?",
+        "answer": "Full time employees are allowed to work from home for 3 days a week and should be present in office for the rest of the days."
+    }
+]
