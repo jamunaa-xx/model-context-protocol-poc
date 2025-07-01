@@ -23,8 +23,8 @@ If you want to split your client and server into separate applications (e.g., ru
 ### Data Flow Explanation
 
 1. **User Query**: The user sends a query to the system (e.g., "What is our company's vacation policy?")
-2. **LLama API**: OpenAI receives the query and available tools from the MCP server
-3. **Tool Selection**: OlLama decides which tools to use based on the query
+2. **OpenAI API**: OpenAI receives the query and available tools from the MCP server
+3. **Tool Selection**: OpenAI decides which tools to use based on the query
 4. **MCP Client**: The client receives OpenAI's tool call request and forwards it to the MCP server
 5. **MCP Server**: The server executes the requested tool (e.g., retrieving knowledge base data)
 6. **Response Flow**: The tool result flows back through the MCP client to OpenAI
@@ -71,7 +71,7 @@ Contains Q&A pairs about company policies that can be queried through the MCP se
 
 1. Ensure you have the required dependencies installed
 2. Set up your OpenAI API key in the `.env` file
-3. Ensure Ollama is running `http://localhost:11434`
+3. Ensure Ollama is running at `http://localhost:11434`
 4. Run the client: `python client.py`
 
 Note: With the stdio transport used in this example, you don't need to run the server separately as the client will automatically start it.
